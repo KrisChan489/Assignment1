@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/bigmi/CLionProjects/Assignment1/exceptions.hpp
+exception
+-
+
+/cygdrive/c/Users/bigmi/CLionProjects/Assignment1/main.cpp
+matrix.hpp
+/cygdrive/c/Users/bigmi/CLionProjects/Assignment1/matrix.hpp
+probMatrix.hpp
+/cygdrive/c/Users/bigmi/CLionProjects/Assignment1/probMatrix.hpp
+
+/cygdrive/c/Users/bigmi/CLionProjects/Assignment1/matrix.cpp
+matrix.hpp
+/cygdrive/c/Users/bigmi/CLionProjects/Assignment1/matrix.hpp
+
+/cygdrive/c/Users/bigmi/CLionProjects/Assignment1/matrix.hpp
+iostream
+-
+vector
+-
+math.h
+-
+fstream
+-
+iomanip
+-
+exceptions.hpp
+/cygdrive/c/Users/bigmi/CLionProjects/Assignment1/exceptions.hpp
+
+/cygdrive/c/Users/bigmi/CLionProjects/Assignment1/probMatrix.cpp
+probMatrix.hpp
+/cygdrive/c/Users/bigmi/CLionProjects/Assignment1/probMatrix.hpp
+
+/cygdrive/c/Users/bigmi/CLionProjects/Assignment1/probMatrix.hpp
+matrix.hpp
+/cygdrive/c/Users/bigmi/CLionProjects/Assignment1/matrix.hpp
+
