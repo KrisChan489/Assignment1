@@ -23,8 +23,8 @@ static vector<double> openFile(const string& title) {
 
 static void runProgram() {
     vector<double> testArray = openFile("connectivity.txt");
-    auto m2 = new probMatrix(testArray);
-    operator<<(cout, *m2);
+    //auto m2 = new probMatrix(testArray);
+    //operator<<(cout, *m2);
     auto testMatrix = new matrix(testArray);
     operator<<(cout, *testMatrix);
     auto probMatrix2 = testMatrix->getProbMatrix(*testMatrix);
@@ -33,10 +33,10 @@ static void runProgram() {
     operator<<(cout, probMatrix2);
 
     auto rankMatrix = new matrix(4, 1);
-    operator<<(cout, *rankMatrix);
     for(int i =0; i < probMatrix2.getRows(); i++) {
         rankMatrix->square.at(i).at(0) = 1.0;
     }
+    operator<<(cout, *rankMatrix);
     auto *markov = new matrix(4, 1);
     *markov = probMatrix2.markovProcess(probMatrix2, *rankMatrix);
     operator<<(cout, *markov);

@@ -16,10 +16,6 @@ matrix.hpp
 probMatrix.hpp
 /cygdrive/c/Users/bigmi/CLionProjects/Assignment1/probMatrix.hpp
 
-/cygdrive/c/Users/bigmi/CLionProjects/Assignment1/matrix.cpp
-matrix.hpp
-/cygdrive/c/Users/bigmi/CLionProjects/Assignment1/matrix.hpp
-
 /cygdrive/c/Users/bigmi/CLionProjects/Assignment1/matrix.hpp
 iostream
 -
@@ -33,10 +29,6 @@ iomanip
 -
 exceptions.hpp
 /cygdrive/c/Users/bigmi/CLionProjects/Assignment1/exceptions.hpp
-
-/cygdrive/c/Users/bigmi/CLionProjects/Assignment1/probMatrix.cpp
-probMatrix.hpp
-/cygdrive/c/Users/bigmi/CLionProjects/Assignment1/probMatrix.hpp
 
 /cygdrive/c/Users/bigmi/CLionProjects/Assignment1/probMatrix.hpp
 matrix.hpp

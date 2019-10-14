@@ -64,7 +64,6 @@ public:
     matrix& getTransitionMatrix(matrix& m);
     matrix& markovProcess(matrix& m, matrix & n);
     matrix& getRank(matrix& m);
-    int foo1();
 protected:
     vector<double> vector1;
     int cols;

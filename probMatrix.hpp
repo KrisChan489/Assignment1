@@ -15,7 +15,6 @@ public:
     probMatrix(int, int);
 
     probMatrix(vector<double>);
-    int foo2 ();
 };
 
 
