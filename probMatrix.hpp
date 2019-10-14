@@ -15,6 +15,8 @@ public:
     probMatrix(int, int);
 
     probMatrix(vector<double>);
+
+    matrix& getProbMatrix(matrix &m);
 };
 
 

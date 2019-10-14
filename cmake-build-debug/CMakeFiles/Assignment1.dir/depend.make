@@ -3,8 +3,16 @@
 
 CMakeFiles/Assignment1.dir/main.cpp.o: ../exceptions.hpp
 CMakeFiles/Assignment1.dir/main.cpp.o: ../main.cpp
+CMakeFiles/Assignment1.dir/main.cpp.o: ../markovMatrix.hpp
 CMakeFiles/Assignment1.dir/main.cpp.o: ../matrix.hpp
 CMakeFiles/Assignment1.dir/main.cpp.o: ../probMatrix.hpp
+CMakeFiles/Assignment1.dir/main.cpp.o: ../rankMatrix.hpp
+CMakeFiles/Assignment1.dir/main.cpp.o: ../transMatrix.hpp
+
+CMakeFiles/Assignment1.dir/markovMatrix.cpp.o: ../exceptions.hpp
+CMakeFiles/Assignment1.dir/markovMatrix.cpp.o: ../markovMatrix.cpp
+CMakeFiles/Assignment1.dir/markovMatrix.cpp.o: ../markovMatrix.hpp
+CMakeFiles/Assignment1.dir/markovMatrix.cpp.o: ../matrix.hpp
 
 CMakeFiles/Assignment1.dir/matrix.cpp.o: ../exceptions.hpp
 CMakeFiles/Assignment1.dir/matrix.cpp.o: ../matrix.cpp
@@ -14,4 +22,14 @@ CMakeFiles/Assignment1.dir/probMatrix.cpp.o: ../exceptions.hpp
 CMakeFiles/Assignment1.dir/probMatrix.cpp.o: ../matrix.hpp
 CMakeFiles/Assignment1.dir/probMatrix.cpp.o: ../probMatrix.cpp
 CMakeFiles/Assignment1.dir/probMatrix.cpp.o: ../probMatrix.hpp
+
+CMakeFiles/Assignment1.dir/rankMatrix.cpp.o: ../exceptions.hpp
+CMakeFiles/Assignment1.dir/rankMatrix.cpp.o: ../matrix.hpp
+CMakeFiles/Assignment1.dir/rankMatrix.cpp.o: ../rankMatrix.cpp
+CMakeFiles/Assignment1.dir/rankMatrix.cpp.o: ../rankMatrix.hpp
+
+CMakeFiles/Assignment1.dir/transMatrix.cpp.o: ../exceptions.hpp
+CMakeFiles/Assignment1.dir/transMatrix.cpp.o: ../matrix.hpp
+CMakeFiles/Assignment1.dir/transMatrix.cpp.o: ../transMatrix.cpp
+CMakeFiles/Assignment1.dir/transMatrix.cpp.o: ../transMatrix.hpp
 

@@ -150,6 +150,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+markovMatrix.o: markovMatrix.cpp.o
+
+.PHONY : markovMatrix.o
+
+# target to build an object file
+markovMatrix.cpp.o:
+	$(MAKE) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/markovMatrix.cpp.o
+.PHONY : markovMatrix.cpp.o
+
+markovMatrix.i: markovMatrix.cpp.i
+
+.PHONY : markovMatrix.i
+
+# target to preprocess a source file
+markovMatrix.cpp.i:
+	$(MAKE) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/markovMatrix.cpp.i
+.PHONY : markovMatrix.cpp.i
+
+markovMatrix.s: markovMatrix.cpp.s
+
+.PHONY : markovMatrix.s
+
+# target to generate assembly for a file
+markovMatrix.cpp.s:
+	$(MAKE) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/markovMatrix.cpp.s
+.PHONY : markovMatrix.cpp.s
+
 matrix.o: matrix.cpp.o
 
 .PHONY : matrix.o
@@ -204,6 +231,60 @@ probMatrix.cpp.s:
 	$(MAKE) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/probMatrix.cpp.s
 .PHONY : probMatrix.cpp.s
 
+rankMatrix.o: rankMatrix.cpp.o
+
+.PHONY : rankMatrix.o
+
+# target to build an object file
+rankMatrix.cpp.o:
+	$(MAKE) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/rankMatrix.cpp.o
+.PHONY : rankMatrix.cpp.o
+
+rankMatrix.i: rankMatrix.cpp.i
+
+.PHONY : rankMatrix.i
+
+# target to preprocess a source file
+rankMatrix.cpp.i:
+	$(MAKE) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/rankMatrix.cpp.i
+.PHONY : rankMatrix.cpp.i
+
+rankMatrix.s: rankMatrix.cpp.s
+
+.PHONY : rankMatrix.s
+
+# target to generate assembly for a file
+rankMatrix.cpp.s:
+	$(MAKE) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/rankMatrix.cpp.s
+.PHONY : rankMatrix.cpp.s
+
+transMatrix.o: transMatrix.cpp.o
+
+.PHONY : transMatrix.o
+
+# target to build an object file
+transMatrix.cpp.o:
+	$(MAKE) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/transMatrix.cpp.o
+.PHONY : transMatrix.cpp.o
+
+transMatrix.i: transMatrix.cpp.i
+
+.PHONY : transMatrix.i
+
+# target to preprocess a source file
+transMatrix.cpp.i:
+	$(MAKE) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/transMatrix.cpp.i
+.PHONY : transMatrix.cpp.i
+
+transMatrix.s: transMatrix.cpp.s
+
+.PHONY : transMatrix.s
+
+# target to generate assembly for a file
+transMatrix.cpp.s:
+	$(MAKE) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/transMatrix.cpp.s
+.PHONY : transMatrix.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -216,12 +297,21 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... markovMatrix.o"
+	@echo "... markovMatrix.i"
+	@echo "... markovMatrix.s"
 	@echo "... matrix.o"
 	@echo "... matrix.i"
 	@echo "... matrix.s"
 	@echo "... probMatrix.o"
 	@echo "... probMatrix.i"
 	@echo "... probMatrix.s"
+	@echo "... rankMatrix.o"
+	@echo "... rankMatrix.i"
+	@echo "... rankMatrix.s"
+	@echo "... transMatrix.o"
+	@echo "... transMatrix.i"
+	@echo "... transMatrix.s"
 .PHONY : help
 
 

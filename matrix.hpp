@@ -60,10 +60,9 @@ public:
     vector<vector<double>> getSquare();
 
     vector<vector<double>> square;
-    matrix& getProbMatrix(matrix& m);
-    matrix& getTransitionMatrix(matrix& m);
-    matrix& markovProcess(matrix& m, matrix & n);
-    matrix& getRank(matrix& m);
+    //matrix& getProbMatrix(matrix& m);
+    //matrix& getTransitionMatrix(matrix& m);
+
 protected:
     vector<double> vector1;
     int cols;

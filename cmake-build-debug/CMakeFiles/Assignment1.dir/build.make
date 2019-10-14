@@ -96,11 +96,53 @@ CMakeFiles/Assignment1.dir/probMatrix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment1.dir/probMatrix.cpp.s"
 	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/bigmi/CLionProjects/Assignment1/probMatrix.cpp -o CMakeFiles/Assignment1.dir/probMatrix.cpp.s
 
+CMakeFiles/Assignment1.dir/transMatrix.cpp.o: CMakeFiles/Assignment1.dir/flags.make
+CMakeFiles/Assignment1.dir/transMatrix.cpp.o: ../transMatrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/bigmi/CLionProjects/Assignment1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Assignment1.dir/transMatrix.cpp.o"
+	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Assignment1.dir/transMatrix.cpp.o -c /cygdrive/c/Users/bigmi/CLionProjects/Assignment1/transMatrix.cpp
+
+CMakeFiles/Assignment1.dir/transMatrix.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment1.dir/transMatrix.cpp.i"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/bigmi/CLionProjects/Assignment1/transMatrix.cpp > CMakeFiles/Assignment1.dir/transMatrix.cpp.i
+
+CMakeFiles/Assignment1.dir/transMatrix.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment1.dir/transMatrix.cpp.s"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/bigmi/CLionProjects/Assignment1/transMatrix.cpp -o CMakeFiles/Assignment1.dir/transMatrix.cpp.s
+
+CMakeFiles/Assignment1.dir/rankMatrix.cpp.o: CMakeFiles/Assignment1.dir/flags.make
+CMakeFiles/Assignment1.dir/rankMatrix.cpp.o: ../rankMatrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/bigmi/CLionProjects/Assignment1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Assignment1.dir/rankMatrix.cpp.o"
+	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Assignment1.dir/rankMatrix.cpp.o -c /cygdrive/c/Users/bigmi/CLionProjects/Assignment1/rankMatrix.cpp
+
+CMakeFiles/Assignment1.dir/rankMatrix.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment1.dir/rankMatrix.cpp.i"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/bigmi/CLionProjects/Assignment1/rankMatrix.cpp > CMakeFiles/Assignment1.dir/rankMatrix.cpp.i
+
+CMakeFiles/Assignment1.dir/rankMatrix.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment1.dir/rankMatrix.cpp.s"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/bigmi/CLionProjects/Assignment1/rankMatrix.cpp -o CMakeFiles/Assignment1.dir/rankMatrix.cpp.s
+
+CMakeFiles/Assignment1.dir/markovMatrix.cpp.o: CMakeFiles/Assignment1.dir/flags.make
+CMakeFiles/Assignment1.dir/markovMatrix.cpp.o: ../markovMatrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/bigmi/CLionProjects/Assignment1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Assignment1.dir/markovMatrix.cpp.o"
+	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Assignment1.dir/markovMatrix.cpp.o -c /cygdrive/c/Users/bigmi/CLionProjects/Assignment1/markovMatrix.cpp
+
+CMakeFiles/Assignment1.dir/markovMatrix.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment1.dir/markovMatrix.cpp.i"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/bigmi/CLionProjects/Assignment1/markovMatrix.cpp > CMakeFiles/Assignment1.dir/markovMatrix.cpp.i
+
+CMakeFiles/Assignment1.dir/markovMatrix.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment1.dir/markovMatrix.cpp.s"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/bigmi/CLionProjects/Assignment1/markovMatrix.cpp -o CMakeFiles/Assignment1.dir/markovMatrix.cpp.s
+
 # Object files for target Assignment1
 Assignment1_OBJECTS = \
 "CMakeFiles/Assignment1.dir/main.cpp.o" \
 "CMakeFiles/Assignment1.dir/matrix.cpp.o" \
-"CMakeFiles/Assignment1.dir/probMatrix.cpp.o"
+"CMakeFiles/Assignment1.dir/probMatrix.cpp.o" \
+"CMakeFiles/Assignment1.dir/transMatrix.cpp.o" \
+"CMakeFiles/Assignment1.dir/rankMatrix.cpp.o" \
+"CMakeFiles/Assignment1.dir/markovMatrix.cpp.o"
 
 # External object files for target Assignment1
 Assignment1_EXTERNAL_OBJECTS =
@@ -108,9 +150,12 @@ Assignment1_EXTERNAL_OBJECTS =
 Assignment1.exe: CMakeFiles/Assignment1.dir/main.cpp.o
 Assignment1.exe: CMakeFiles/Assignment1.dir/matrix.cpp.o
 Assignment1.exe: CMakeFiles/Assignment1.dir/probMatrix.cpp.o
+Assignment1.exe: CMakeFiles/Assignment1.dir/transMatrix.cpp.o
+Assignment1.exe: CMakeFiles/Assignment1.dir/rankMatrix.cpp.o
+Assignment1.exe: CMakeFiles/Assignment1.dir/markovMatrix.cpp.o
 Assignment1.exe: CMakeFiles/Assignment1.dir/build.make
 Assignment1.exe: CMakeFiles/Assignment1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/bigmi/CLionProjects/Assignment1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Assignment1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/bigmi/CLionProjects/Assignment1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Assignment1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Assignment1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

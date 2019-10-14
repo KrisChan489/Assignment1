@@ -15,6 +15,16 @@ matrix.hpp
 /cygdrive/c/Users/bigmi/CLionProjects/Assignment1/matrix.hpp
 probMatrix.hpp
 /cygdrive/c/Users/bigmi/CLionProjects/Assignment1/probMatrix.hpp
+transMatrix.hpp
+/cygdrive/c/Users/bigmi/CLionProjects/Assignment1/transMatrix.hpp
+rankMatrix.hpp
+/cygdrive/c/Users/bigmi/CLionProjects/Assignment1/rankMatrix.hpp
+markovMatrix.hpp
+/cygdrive/c/Users/bigmi/CLionProjects/Assignment1/markovMatrix.hpp
+
+/cygdrive/c/Users/bigmi/CLionProjects/Assignment1/markovMatrix.hpp
+matrix.hpp
+/cygdrive/c/Users/bigmi/CLionProjects/Assignment1/matrix.hpp
 
 /cygdrive/c/Users/bigmi/CLionProjects/Assignment1/matrix.hpp
 iostream
@@ -31,6 +41,14 @@ exceptions.hpp
 /cygdrive/c/Users/bigmi/CLionProjects/Assignment1/exceptions.hpp
 
 /cygdrive/c/Users/bigmi/CLionProjects/Assignment1/probMatrix.hpp
+matrix.hpp
+/cygdrive/c/Users/bigmi/CLionProjects/Assignment1/matrix.hpp
+
+/cygdrive/c/Users/bigmi/CLionProjects/Assignment1/rankMatrix.hpp
+matrix.hpp
+/cygdrive/c/Users/bigmi/CLionProjects/Assignment1/matrix.hpp
+
+/cygdrive/c/Users/bigmi/CLionProjects/Assignment1/transMatrix.hpp
 matrix.hpp
 /cygdrive/c/Users/bigmi/CLionProjects/Assignment1/matrix.hpp
 

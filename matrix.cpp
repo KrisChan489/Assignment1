@@ -420,94 +420,12 @@ int matrix::getRows() {
     return rows;
 }
 
-/**
- * Returns a probablity matrix
- * @param m
- * @return
- */
-matrix& matrix::getProbMatrix(matrix& m) {
-    double total = 0.0;
-    auto *mat = new matrix(m.rows, m.cols);
-    mat->operator=(m);
-    for(int i = 0; i < m.cols; i++) {
-        for(int j = 0; j < m.rows; j++) {
-            total += mat->square.at(j).at(i);
-        }
-        if(total == 0) {
-            for (int k = 0; k < m.rows; k++)
-                mat->square.at(k).at(i) = (double)(1.0/m.getRows());
-        }
-        else {
-            for (int l = 0; l < m.rows; l++)
-                mat->square.at(l).at(i) /= total;
-        }
-        total = 0;
-    }
-    return *mat;
-}
 
-/**
- * Returns a transition matrix
- * @param m
- * @return
- */
-matrix &matrix::getTransitionMatrix(matrix &m) {
-    for(int i = 0; i < m.rows; i++) {
-        for(int j = 0; j < m.cols; j++)
-            m.square[i][j] *= 0.85;
-    }
-    auto q = new matrix(m.rows, m.cols);
-    for(int i = 0; i < m.cols; i++) {
-        for (int k = 0; k < m.rows; k++)
-            q->square.at(k).at(i) = (double) (1.0 / m.rows);
-    }
-    for(int i = 0; i < m.cols; i++) {
-        for (int k = 0; k < m.rows; k++)
-            q->square.at(k).at(i) *= 0.15;
-    }
-    operator+=(m, *q);
-    return m;
-}
 
-/**
- * Performs the markov process on a matrix
- * @param m
- * @param n
- * @return
- */
-matrix &matrix::markovProcess(matrix &m, matrix &n) {
-    double top = n.square.at(0).at(0);
-    n = operator*(m, n);
-    if(top != n.square.at(0).at(0))
-        markovProcess(m, n);
-    return n;
-}
 
-/**
- * Determines the rank percentages for the pages
- * @param m
- * @return
- */
-matrix &matrix::getRank(matrix &m) {
-    double total = 0.0;
-    for(int i = 0; i < m.rows; i++) {
-        for(int j = 0; j < m.cols; j++)
-            total += m.square.at(i).at(j);
-    }
-    for(int i = 0; i < m.rows; i++) {
-        for(int j = 0; j < m.cols; j++) {
-            m.square.at(i).at(j) /= total;
-            m.square.at(i).at(j) *= 100;
-        }
-    }
-    char letters[]= {'A', 'B', 'C', 'D'};
-    for(int i = 0; i < m.rows; i++) {
-        for(int j = 0; j < m.cols; j++) {
-            cout << "Page " << letters[i] << ": " << setprecision(2) << m.square.at(i).at(j) << "%" <<  endl;
-        }
-    }
-    return m;
-}
+
+
+
 
 
 
